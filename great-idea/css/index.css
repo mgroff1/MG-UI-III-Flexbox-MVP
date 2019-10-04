@@ -33,201 +33,120 @@ footer, header, hgroup, menu, nav, section {
 }
 
 /* every element is a border-box */
-
 * {
     box-sizing: border-box;
 }
 
-html, body{
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
-}
-
-h1 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-	margin-bottom: 15px;
-	font-size: 70px;
-}
-
-
-/* Your code starts here! */
-/*Universal CSS*/
-
-
-/*CSS by Element*/
-
-
-body {
-    width: 880px;
-    margin: auto;
-}
-
-header {
-    text-align: center;
-}
-
-a {
-	text-decoration: none;
-	color: lightgray;
-	padding-left: 0%;
-	padding-right: 7%;
-}
-
-h2 {
-	font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-	margin-bottom: 10px;
-	font-size: 15px;
-}
-
-hr {
-	border-top: 1px solid black;
-}
-
-*/
-/*CSS by Class*/
-
-
 .container {
-	margin: auto;
-	padding: 1%;
-	display: inline-block; 
-	}
-
-.content-1 {
-	width: 100%;
-	margin-top: 2%;
-	margin-bottom: 2%;
-	display: flex;
-	align-items: center;	
+    position: absolute;
+    width: 100vw;
+    padding: 0 15%;
+    margin: 0 auto;
 }
 
-.content-1-nav {
-	display: inline-block;
-	width: 79%;
-	text-align: left;
+.container nav {
+    width: 100%;
+
 }
 
-.content-1-logo {
-	display: inline-block;
-	width: 20%;
+.container nav .nav-menu {
+    width: 100%;
+    height: 50px;
+
+
 }
 
-.content-2 {
-	width: 100%;
-	margin-top: 3%; 
-	margin-bottom: 3%;
+.container nav .nav-menu > li {
+    display: inline-block;
+    padding: 20px 30px;
 }
 
-
-
-.content-2-text {
-	display: inline-block;
-	text-align: center;
-	vertical-align: top;
-	margin: 1%;
-    width: 49%;
-    min-width: 250px;
+.container nav .img-logo {
+    display: inline-block;
 }
 
-.start-button {
-	border: 1px solid black;
-	color: black;
-	background-color: white;
-	padding-top: 1%;
-	padding-bottom: 1%;
-	padding-left: 6%;
-	padding-right: 6%;
+.main {
+    width: 100%;
 }
 
-.content-2-img {
-	display: inline-block;
-	vertical-align: top;
+.main .main-wrapper {
+    width: 100%;
+    /*    display:inline-block;*/
+}
+
+.main .large-text-wrapper {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 30px;
+    margin-bottom: 50px 50px;
+
+}
+
+.main .larg-text {
+    font-size: 56px
+}
+
+.main .btn-wrapper {
+    margin: 50px;
+    width: 125px;
+}
+
+.main .get-started {
+    width: 125px;
+    height: 50px;
+}
+
+.img-wrapper {
+    width: 40%;
+    display: inline-block;
+    margin: 50px 120px;
+}
+
+.img-wrapper img {}
+
+.content {}
+
+.content .content-level1 {
+    display: inline-block;
+
+}
+
+.content .content-level1 .first {
+    display: inline-block;
     width: 45%;
-    min-width: 250px;
-} 
-
-.content-3 {
-	width: 100%; 
-	margin-top: 3%; 
-	margin-bottom: 3%;
-	display: flex;
+    margin: 25px 5px;
+    content: normal;
 }
 
-.content-3-box {
-	margin-top: 10px;
-	margin-bottom: 10px;
-    justify-content: space-between;
-} 
-
-.middle-img {
-	width: 100%;
+.content .content-level1 .second {
+    display: inline-block;
+    width: 45%;
+    margin: 25px 5px;
 }
 
-.content-4 {
-	width: 100%; 
-	margin-top: 10px; 
-	margin-bottom: 15px;
-	display: flex;
+.content .content-img {}
+
+.content .middle-img {}
+
+.content .content-level2 {
+    width: 100%;
 }
 
-.content-4-box {
-    padding: 5px;
-	justify-content: space-between;
-	
+.content .content-level2 .first {
+    display: inline-block;
+    width: 30%;
+    margin: 25px 5px;
 }
 
-.copyright {
-	text-align: center;
-	margin-top: 2%; 
-	margin-bottom: 3%;
+.content .content-level2 .second {
+    display: inline-block;
+    width: 30%;
+    margin: 25px 5px;
 }
 
-/*Services Page Specific */
-.services {
-	font-size: 30px;
-	margin-top: 5px;
-}
-
-.services-page-content {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
-
-.services-page-content-box {
-	background-color: lightgray;
-	border: 1px solid black;
-	width: 49%;
-	margin-top: 8px;
-	margin-bottom: 8px;
-	padding: 22px; 
-}
-
-.learn-more {
-	border: 1px solid black;
-	color: black;
-	background-color: white;
-	padding-top: 1%;
-	padding-bottom: 1%;
-	padding-left: 6%;
-	padding-right: 6%;
-	border-radius: 6px;
-	margin: 5px;
-}
-
-.facts-content {
-	display: flex;
-	justify-content: space-between;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-.facts-content-box {
-	width: 420px;
-}
-
-.facts-list {
-	list-style: square inside;
+.content .content-level2 .third {
+    display: inline-block;
+    width: 30%;
+    margin: 25px 5px;
 }
