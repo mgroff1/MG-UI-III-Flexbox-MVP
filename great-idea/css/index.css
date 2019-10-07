@@ -28,6 +28,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+*{
+    box-sizing:border-box;
+}
 body {
 	line-height: 1;
 }
@@ -217,15 +221,6 @@ footer {
 	font-size: 30px;
 }
 
-.services-top p {
-	font-size: 17px;
-	flex-wrap: wrap;
-	padding-bottom: 30px;
-	border-bottom: 2px solid black;
-	margin-bottom: 30px;
-	
-}
-
 .box-content {
 	display: flex;
 	flex-direction: row;
@@ -246,17 +241,7 @@ footer {
 .box p {
 	margin-bottom: 20px;
 }
-.box button {
-	border: 1px solid black;
-	width: 150px;
-	height: 35px;
-	border-radius: 5%;
-}
 
-.box button:hover {
-	background-color: black;
-	color: white;
-}
 
 .bottom {
 	display: flex;
@@ -265,10 +250,6 @@ footer {
 	padding-top: 40px;
 }
 
-.services-facts p {
-	width: 400px;
-	margin-bottom: 20px;
-}
 
 li {
 	/* margin-left: 20px; */
@@ -277,7 +258,99 @@ li {
 	list-style-position: inside;
 }
 
+.image-wrap{
+    margin:0px;
+    padding:0px;
+}
 
-/* .services-info-img {
-	display: flex;
-} */
+.service-nav{
+    padding-bottom:20px;
+}
+
+button {
+    padding:5px 20px 5px 20px;
+    border-radius:5px;
+	border: 1px solid black;
+	width: 150px;
+	height: 35px;
+}
+
+button:hover {
+	background-color: black;
+	color: white;
+}
+
+.fact-list{
+    margin-top:20px;
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    align-items: flex-start;
+    padding:15px 0px 15px 0px;
+    }
+
+.service-cont{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    align-items: flex-start;
+    }
+
+.row-1{
+    order: 0;
+    flex: .5 .5 auto;
+    align-self: flex-start;
+    }
+
+.row-2{
+    order: 1;
+    flex: .5 .5 auto;
+    align-self: flex-start;
+    }
+
+.row-3{
+    order: 2;
+    flex: .5 .5 auto;
+    align-self: auto;
+    }
+
+.rows {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: space-around;
+    align-items: stretch;
+    }
+
+.service-cont-left{
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;  
+   margin:0 10px 0 auto; 
+    padding:10px;
+    border:2px ridge black;
+    background:lightblue;
+
+    }
+ 
+.service-cont-right{
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+      margin:0 auto 0 10px;  
+     padding:10px;
+     border:2px ridge black;
+    background:lightblue;
+
+    }
+p{
+    line-height: 25px;
+}
