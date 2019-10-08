@@ -30,12 +30,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-*{
-    box-sizing:border-box;
-}
-body {
-	line-height: 1;
-}
+
 ol, ul {
 	list-style: none;
 }
@@ -55,6 +50,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
+    line-height: 25px;
 }
 
 html, body {
@@ -67,38 +63,47 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
+.contact{
+    display:flex;
+    justify-content: space-between;
+    margin:150px 0 0 0;
+}
 section{
     margin:50px 0 0 0;
 }
-
+h1{
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+    font-size: 70px;
+    text-align:center;
+}
 .container{
     display:flex;
-    flex-direction: column;
+    margin: 20px auto;
+    max-width:800px;
+    display:flex;
+    justify-self: center;
     justify-content: space-between;
+    flex-direction:column;
 }
 
 .container .sec{
     display:flex;
-    justify-content:space-around;
+    justify-self:space-between;
+   
 }
 
 
 .service-nav{
     display:flex;
+    margin-bottom:100px;
     justify-content:space-between;
 }
-.container{
-    margin: 20px auto;
-    max-width:850px;
-    display:flex;
-    justify-self: center;
-    justify-content: center;
-    flex-direction:column;
-}
+
 .service-cont{
     display:flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
     flex-direction:column;
     padding:0
 }
@@ -108,8 +113,6 @@ section{
     justify-content:space-between;
     align-items:flex-start;
     justify-self: flex-start;
-  
-
 }
 
 .service-cont-left{
@@ -120,12 +123,19 @@ section{
 p{
     padding:15px;
 }
+
+footer p{
+    justify-self:flex-start;
+    margin:100px 100px;
+}
 .service-cont-right{
  background-color:lightblue;
  justify-self: center;
  margin:20px;
 }
-
+button.get-started{
+    margin-top:70px;
+}
 button.more{
     padding:5px;
     margin:10px;
