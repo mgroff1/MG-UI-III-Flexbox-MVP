@@ -78,25 +78,31 @@ section{
 }
 p{
     padding:10px;
-<<<<<<< HEAD
 }
 
 button.more{
     margin:15px;
 }
 
-=======
-}
+
 
 button.more{
     margin:15px;
 }
 
->>>>>>> 44cdf4735a4a72138adebdd4835bfc92bc6093c6
 .top{
     border-top:2px ridge black;
 }
 
+
+body{
+    position:absolute;
+    width:100vw;
+ /* background:url('../img/bgoplight.png'); */
+ /* background-repeat:no-repeat; */
+ background-size:stretch;
+
+}
 .bottom{
     border-bottom: 2px ridge black;
 }
@@ -117,6 +123,7 @@ button.more{
     justify-self: center;
     justify-content: space-between;
     flex-direction:column;
+
 }
 .text{
     display:flex;
@@ -148,7 +155,6 @@ button.more{
     justify-self: flex-end;
     justify-content:center;
     
-<<<<<<< HEAD
 }
 
 .sec-column{
@@ -225,6 +231,5 @@ button.more{
 
 .fact-list{
     list-style: disc;
-    list-style-position: inside
->>>>>>> 44cdf4735a4a72138adebdd4835bfc92bc6093c6
+    list-style-position: inside;
 }
