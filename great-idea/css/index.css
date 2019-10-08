@@ -1,4 +1,5 @@
 
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -77,12 +78,21 @@ section{
 }
 p{
     padding:10px;
+<<<<<<< HEAD
 }
 
 button.more{
     margin:15px;
 }
 
+=======
+}
+
+button.more{
+    margin:15px;
+}
+
+>>>>>>> 44cdf4735a4a72138adebdd4835bfc92bc6093c6
 .top{
     border-top:2px ridge black;
 }
@@ -138,6 +148,7 @@ button.more{
     justify-self: flex-end;
     justify-content:center;
     
+<<<<<<< HEAD
 }
 
 .sec-column{
@@ -193,4 +204,27 @@ button.more{
         margin-top:25px;
     }
 
+
+}
+
+.sec-column{
+    display:flex;
+    flex-direction:column;
+
+}
+
+.sec-column .rows{
+    display:flex;
+    justify-content:space-between;
+}
+
+.left,.right{
+    background:lightblue;
+    width:47%;
+}
+
+.fact-list{
+    list-style: disc;
+    list-style-position: inside
+>>>>>>> 44cdf4735a4a72138adebdd4835bfc92bc6093c6
 }
