@@ -109,7 +109,7 @@ body{
     display:block;
     position:absolute;
     width:100vw;
- background:url('../img/bgoplight.png');
+ background:url('bgoplight.png');
  background-position:center;
  background-repeat:repeat-y;
  background-size:cover;
