@@ -1,5 +1,6 @@
 
 
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -78,6 +79,7 @@ section{
 }
 p{
     padding:10px;
+    background:rgba(255,255,255,.4);
 }
 a{
     text-decoration: none;
@@ -109,7 +111,7 @@ body{
     display:block;
     position:absolute;
     width:100vw;
- background:url('bgoplight.png');
+ background:linear-gradient(rgba(0,0,0,.8),rgba(255,255,255,.5),rgba(0,0,0,.75));
  background-position:center;
  background-repeat:repeat-y;
  background-size:cover;
